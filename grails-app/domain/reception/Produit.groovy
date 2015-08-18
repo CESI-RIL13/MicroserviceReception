@@ -1,5 +1,7 @@
 package reception
+import grails.rest.Resource
 
+@Resource(formats=['html','json', 'xml'])
 class Produit {
 
     Long ref_bon_commane
